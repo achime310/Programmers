@@ -7,7 +7,7 @@ class Solution {
         Map<Integer,Integer> map = new HashMap<Integer,Integer>();
         
         for(int i = 1; i <= sqrt; i++){
-            if(yellow % i == 0 ){ // 약수 중 큰 수 저장
+            if(yellow % i == 0 ){
                 map.put(i, yellow / i);
             }
         }
